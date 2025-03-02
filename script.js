@@ -44,7 +44,7 @@ async function sendMessage() {
 
     // Check if the input is about plants and diseases
     if (!isAboutPlantsAndDiseases(userInput)) {
-        addMessage("I can only answer questions about plants and their diseases.", "bot");
+        addMessage("sorry , i can not answer.", "bot");
         return; // Exit the function if the input is unrelated
     }
 
