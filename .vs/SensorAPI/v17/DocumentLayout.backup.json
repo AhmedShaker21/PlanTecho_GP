@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Graduation Project\\SensorAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBA7BFF-A83A-4782-8611-03C690DFDDFD}|SensorAPI\\SensorAPI.csproj|d:\\graduation project\\sensorapi\\sensorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBA7BFF-A83A-4782-8611-03C690DFDDFD}|SensorAPI\\SensorAPI.csproj|solutionrelative:sensorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBA7BFF-A83A-4782-8611-03C690DFDDFD}|SensorAPI\\SensorAPI.csproj|d:\\graduation project\\sensorapi\\sensorapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2DBA7BFF-A83A-4782-8611-03C690DFDDFD}|SensorAPI\\SensorAPI.csproj|solutionrelative:sensorapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBA7BFF-A83A-4782-8611-03C690DFDDFD}|SensorAPI\\SensorAPI.csproj|d:\\graduation project\\sensorapi\\sensorapi\\migrations\\sensordbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBA7BFF-A83A-4782-8611-03C690DFDDFD}|SensorAPI\\SensorAPI.csproj|solutionrelative:sensorapi\\migrations\\sensordbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBA7BFF-A83A-4782-8611-03C690DFDDFD}|SensorAPI\\SensorAPI.csproj|d:\\graduation project\\sensorapi\\sensorapi\\controllers\\sensorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBA7BFF-A83A-4782-8611-03C690DFDDFD}|SensorAPI\\SensorAPI.csproj|solutionrelative:sensorapi\\controllers\\sensorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBA7BFF-A83A-4782-8611-03C690DFDDFD}|SensorAPI\\SensorAPI.csproj|d:\\graduation project\\sensorapi\\sensorapi\\controllers\\sensorwebsocketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBA7BFF-A83A-4782-8611-03C690DFDDFD}|SensorAPI\\SensorAPI.csproj|solutionrelative:sensorapi\\controllers\\sensorwebsocketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBA7BFF-A83A-4782-8611-03C690DFDDFD}|SensorAPI\\SensorAPI.csproj|d:\\graduation project\\sensorapi\\sensorapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBA7BFF-A83A-4782-8611-03C690DFDDFD}|SensorAPI\\SensorAPI.csproj|solutionrelative:sensorapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBA7BFF-A83A-4782-8611-03C690DFDDFD}|SensorAPI\\SensorAPI.csproj|d:\\graduation project\\sensorapi\\sensorapi\\models\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBA7BFF-A83A-4782-8611-03C690DFDDFD}|SensorAPI\\SensorAPI.csproj|solutionrelative:sensorapi\\models\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBA7BFF-A83A-4782-8611-03C690DFDDFD}|SensorAPI\\SensorAPI.csproj|d:\\graduation project\\sensorapi\\sensorapi\\data\\sensordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBA7BFF-A83A-4782-8611-03C690DFDDFD}|SensorAPI\\SensorAPI.csproj|solutionrelative:sensorapi\\data\\sensordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SensorDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Graduation Project\\SensorAPI\\SensorAPI\\Migrations\\SensorDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "SensorAPI\\Migrations\\SensorDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\Graduation Project\\SensorAPI\\SensorAPI\\Migrations\\SensorDbContextModelSnapshot.cs",
+              "RelativeToolTip": "SensorAPI\\Migrations\\SensorDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T15:46:43.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Graduation Project\\SensorAPI\\SensorAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "SensorAPI\\appsettings.json",
+              "ToolTip": "D:\\Graduation Project\\SensorAPI\\SensorAPI\\appsettings.json",
+              "RelativeToolTip": "SensorAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-02T15:32:13.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SensorWebSocketController.cs",
+              "DocumentMoniker": "D:\\Graduation Project\\SensorAPI\\SensorAPI\\Controllers\\SensorWebSocketController.cs",
+              "RelativeDocumentMoniker": "SensorAPI\\Controllers\\SensorWebSocketController.cs",
+              "ToolTip": "D:\\Graduation Project\\SensorAPI\\SensorAPI\\Controllers\\SensorWebSocketController.cs",
+              "RelativeToolTip": "SensorAPI\\Controllers\\SensorWebSocketController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T15:27:44.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Graduation Project\\SensorAPI\\SensorAPI\\Program.cs",
+              "RelativeDocumentMoniker": "SensorAPI\\Program.cs",
+              "ToolTip": "D:\\Graduation Project\\SensorAPI\\SensorAPI\\Program.cs",
+              "RelativeToolTip": "SensorAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T15:31:41.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SensorController.cs",
+              "DocumentMoniker": "D:\\Graduation Project\\SensorAPI\\SensorAPI\\Controllers\\SensorController.cs",
+              "RelativeDocumentMoniker": "SensorAPI\\Controllers\\SensorController.cs",
+              "ToolTip": "D:\\Graduation Project\\SensorAPI\\SensorAPI\\Controllers\\SensorController.cs",
+              "RelativeToolTip": "SensorAPI\\Controllers\\SensorController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T15:27:36.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Graduation Project\\SensorAPI\\SensorAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "SensorAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Graduation Project\\SensorAPI\\SensorAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "SensorAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T15:31:54.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SensorDbContext.cs",
+              "DocumentMoniker": "D:\\Graduation Project\\SensorAPI\\SensorAPI\\Data\\SensorDbContext.cs",
+              "RelativeDocumentMoniker": "SensorAPI\\Data\\SensorDbContext.cs",
+              "ToolTip": "D:\\Graduation Project\\SensorAPI\\SensorAPI\\Data\\SensorDbContext.cs",
+              "RelativeToolTip": "SensorAPI\\Data\\SensorDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T15:28:04.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SensorData.cs",
+              "DocumentMoniker": "D:\\Graduation Project\\SensorAPI\\SensorAPI\\Models\\SensorData.cs",
+              "RelativeDocumentMoniker": "SensorAPI\\Models\\SensorData.cs",
+              "ToolTip": "D:\\Graduation Project\\SensorAPI\\SensorAPI\\Models\\SensorData.cs",
+              "RelativeToolTip": "SensorAPI\\Models\\SensorData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T15:28:23.729Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

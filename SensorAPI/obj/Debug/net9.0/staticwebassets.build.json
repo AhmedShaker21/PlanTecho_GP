@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "txUM+bPCED4jTRT30MDe11Ec54zIYelhC/gL3CeK60U=",
+  "Source": "SensorAPI",
+  "BasePath": "_content/SensorAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
