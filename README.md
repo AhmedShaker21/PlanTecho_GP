@@ -84,8 +84,5 @@ Amira Hatem
 Rana Nasser
 Shahd Mohamed
 
-📜 License
-
-This project is licensed under the MIT License. Feel free to use and contribute!
 
 🚀 Empowering Agriculture with Smart Technology!
