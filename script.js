@@ -11,6 +11,22 @@ function addMessage(message, sender) {
     chatBox.scrollTop = chatBox.scrollHeight; // Scroll to the bottom
 }
 
+// Function to check if the input is about plants and diseases
+function isAboutPlantsAndDiseases(input) {
+    // List of keywords related to plants and diseases
+    const plantKeywords = ["plant", "plants", "tree", "trees", "flower", "flowers", "leaf", "leaves", "stem", "roots"];
+    const diseaseKeywords = ["disease", "diseases", "fungus", "fungi", "pest", "pests", "infection", "rot", "blight", "mold"];
+
+    // Convert input to lowercase for case-insensitive matching
+    const lowerInput = input.toLowerCase();
+
+    // Check if the input contains any plant or disease keywords
+    const isAboutPlants = plantKeywords.some(keyword => lowerInput.includes(keyword));
+    const isAboutDiseases = diseaseKeywords.some(keyword => lowerInput.includes(keyword));
+
+    return isAboutPlants || isAboutDiseases;
+}
+
 // Function to handle sending a message
 async function sendMessage() {
     const userInput = document.getElementById("userInput").value.trim();
@@ -25,6 +41,12 @@ async function sendMessage() {
 
     // Clear the input field
     document.getElementById("userInput").value = "";
+
+    // Check if the input is about plants and diseases
+    if (!isAboutPlantsAndDiseases(userInput)) {
+        addMessage("I can only answer questions about plants and their diseases.", "bot");
+        return; // Exit the function if the input is unrelated
+    }
 
     // Show loading indicator
     addMessage("Bot is typing...", "bot");
