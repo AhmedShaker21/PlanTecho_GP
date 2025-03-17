@@ -13,9 +13,9 @@ function addMessage(message, sender) {
 
 // Function to check if the input is about plants and diseases
 function isAboutPlantsAndDiseases(input) {
-    // List of keywords related to plants and diseases
-    const plantKeywords = ["plant", "plants", "tree", "trees", "flower", "flowers", "leaf", "leaves", "stem", "roots"];
-    const diseaseKeywords = ["disease", "diseases", "fungus", "fungi", "pest", "pests", "infection", "rot", "blight", "mold"];
+    // List of keywords related to plants and diseases (in Arabic and English)
+    const plantKeywords = ["نبات", "نباتات", "شجرة", "أشجار", "زهرة", "زهور", "ورقة", "أوراق", "ساق", "جذور", "plant", "plants", "tree", "trees", "flower", "flowers", "leaf", "leaves", "stem", "roots"];
+    const diseaseKeywords = ["مرض", "أمراض", "فطر", "فطريات", "آفة", "آفات", "عدوى", "تعفن", "لفحة", "عفن", "disease", "diseases", "fungus", "fungi", "pest", "pests", "infection", "rot", "blight", "mold"];
 
     // Convert input to lowercase for case-insensitive matching
     const lowerInput = input.toLowerCase();
@@ -27,12 +27,19 @@ function isAboutPlantsAndDiseases(input) {
     return isAboutPlants || isAboutDiseases;
 }
 
+// Function to detect the language of the input
+function detectLanguage(input) {
+    // Use a simple heuristic to detect Arabic (you can replace this with a library like `langdetect` or `franc`)
+    const arabicRegex = /[\u0600-\u06FF]/; // Arabic Unicode range
+    return arabicRegex.test(input) ? "ar" : "en";
+}
+
 // Function to handle sending a message
 async function sendMessage() {
     const userInput = document.getElementById("userInput").value.trim();
 
     if (!userInput) {
-        alert("Please enter a message.");
+        alert("Please enter a message / الرجاء إدخال رسالة.");
         return;
     }
 
@@ -44,20 +51,29 @@ async function sendMessage() {
 
     // Check if the input is about plants and diseases
     if (!isAboutPlantsAndDiseases(userInput)) {
-        addMessage("sorry , i can not answer.", "bot");
+        const detectedLanguage = detectLanguage(userInput);
+        const errorMessage = detectedLanguage === "ar" ?
+            "عذرًا، لا يمكنني الإجابة على هذا السؤال." :
+            "Sorry, I can't answer this question.";
+        addMessage(errorMessage, "bot");
         return; // Exit the function if the input is unrelated
     }
 
     // Show loading indicator
-    addMessage("Bot is typing...", "bot");
+    const detectedLanguage = detectLanguage(userInput);
+    const loadingMessage = detectedLanguage === "ar" ? "جارٍ الكتابة..." : "Bot is typing...";
+    addMessage(loadingMessage, "bot");
 
     try {
         // Prepare the request payload
+        const systemPrompt = detectedLanguage === "ar" ?
+            "الرد باللغة العربية فقط." :
+            "Respond in English only.";
         const payload = {
             contents: [
                 {
                     role: "user",
-                    parts: [{ text: userInput }],
+                    parts: [{ text: `${systemPrompt} ${userInput}` }],
                 },
             ],
         };
@@ -80,7 +96,8 @@ async function sendMessage() {
         console.log("API Response:", data); // Log the full response for debugging
 
         // Extract the bot's response
-        const botResponse = data.candidates[0].content.parts[0].text || "I couldn't generate a response.";
+        const botResponse = data.candidates[0].content.parts[0].text || 
+            (detectedLanguage === "ar" ? "لم أتمكن من إنشاء رد." : "I couldn't generate a response.");
 
         // Remove the loading message
         const chatBox = document.getElementById("chatBox");
@@ -92,7 +109,10 @@ async function sendMessage() {
         console.error("Error communicating with Gemini API:", error);
         const chatBox = document.getElementById("chatBox");
         chatBox.removeChild(chatBox.lastChild); // Remove the loading message
-        addMessage("Oops! Something went wrong. Please try again.", "bot");
+        const errorMessage = detectedLanguage === "ar" ?
+            "حدث خطأ! يرجى المحاولة مرة أخرى." :
+            "Oops! Something went wrong. Please try again.";
+        addMessage(errorMessage, "bot");
     }
 }
 
